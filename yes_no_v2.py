@@ -1,5 +1,5 @@
 show_instructions = ""
-while show_instructions.lower() != "xxx"
+while show_instructions.lower() != "xxx":
     show_instructions = input("have you played this game before").lower().strip()
 
 
@@ -11,5 +11,5 @@ while show_instructions.lower() != "xxx"
         print("display instructions")
     elif show_instructions == "n":
         print("display instructions")
-    elif:
+    else:
         print("please answer yes/no")
